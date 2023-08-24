@@ -39,15 +39,15 @@ function App() {
     <div className="items-center flex flex-col sm:ml-0 ml-20">
       <div className="flex-col flex min-w-full items-center justify-around  overflow-auto -mt-8  font-link text-white">
         <div className="flex flex-col sm:flex-row ml-72 mt-12 sm:mt-20 sm:ml-44">
-          <div className="-ml-32 sm:flex hidden mr-8 ">
-            <img onLoad={imageloaded} src="https://orange-confused-boar-516.mypinata.cloud/ipfs/QmdcE4xXBkCknQFuKftn5BoHgSp1xHRECGXUp8W5HPR7A3?_gl=1*1g0xk7f*_ga*MTY2OTI0NDAzNS4xNjgzNjU2ODM2*_ga_5RMPXG14TE*MTY5MTEyNzg5OC41LjEuMTY5MTEyNzkxOC40MC4wLjA." className="sm:w-[230px] sm:h-[230px] hidden sm:flex z-0 rounded-full" loading="lazy" alt="Profile" />
+          <div className="-ml-32 mr-8 ">
+            <img onLoad={imageloaded} src="https://orange-confused-boar-516.mypinata.cloud/ipfs/QmdcE4xXBkCknQFuKftn5BoHgSp1xHRECGXUp8W5HPR7A3?_gl=1*1g0xk7f*_ga*MTY2OTI0NDAzNS4xNjgzNjU2ODM2*_ga_5RMPXG14TE*MTY5MTEyNzg5OC41LjEuMTY5MTEyNzkxOC40MC4wLjA." className="w-[230px] h-[230px] sm:flex hidden  z-0 rounded-full" loading="lazy" alt="Profile" />
             {loadImage &&
-              <div className="-mt-[230px] z-10 ">
+              <div className="-mt-[230px] sm:flex hidden z-10 ">
                 <Skeleton animation="wave" variant="circular" sx={{ bgcolor: '#0f5575' }} width={230} height={230} />
               </div>
             }
           </div>
-          <div className="flex-col mt-9 sm:mr-16">
+          <div className="flex-col mt-9 mr-12 sm:mr-16">
             <p className="text-3xl ml-8 sm:ml-0 sm:text-5xl p-2  text-cyan-300">Roshan Raj Singh</p>
             <div className="flex-row flex mt-3 w-[414px]">
               <p className="text-2xl sm:text-3xl  -mr-1 text-cyan-600">{text}</p>
