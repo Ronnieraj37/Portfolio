@@ -39,7 +39,7 @@ function App() {
     <div className="items-center flex flex-col sm:ml-0 ml-20">
       <div className="flex-col flex min-w-full items-center justify-around  overflow-auto -mt-8  font-link text-white">
         <div className="flex flex-col sm:flex-row ml-72 mt-12 sm:mt-20 sm:ml-44">
-          <div className="-ml-32 mr-8 ">
+          <div className="-ml-32 sm:flex hidden mr-8 ">
             <img onLoad={imageloaded} src="https://orange-confused-boar-516.mypinata.cloud/ipfs/QmdcE4xXBkCknQFuKftn5BoHgSp1xHRECGXUp8W5HPR7A3?_gl=1*1g0xk7f*_ga*MTY2OTI0NDAzNS4xNjgzNjU2ODM2*_ga_5RMPXG14TE*MTY5MTEyNzg5OC41LjEuMTY5MTEyNzkxOC40MC4wLjA." className="sm:w-[230px] sm:h-[230px] hidden sm:flex z-0 rounded-full" loading="lazy" alt="Profile" />
             {loadImage &&
               <div className="-mt-[230px] z-10 ">
