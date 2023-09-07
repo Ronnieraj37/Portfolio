@@ -15,7 +15,7 @@ function App() {
   const whatsappLink = "https://wa.me/8919285030";
   const githubLink = "https://github.com/Ronnieraj37?tab=repositories";
   const linkedinLink = "https://www.linkedin.com/in/roshan-singh-79709a224/";
-  const resumeLink = "https://orange-confused-boar-516.mypinata.cloud/ipfs/QmVdWEtDDxzXy4ppXnLaWE9qpiNoEXpEfEqmEVQJGCffUL?_gl=1*pjfpdy*_ga*MTY2OTI0NDAzNS4xNjgzNjU2ODM2*_ga_5RMPXG14TE*MTY5MTI3MDEzOS44LjEuMTY5MTI3MDE3NS4yNC4wLjA.";
+  const resumeLink = "https://orange-confused-boar-516.mypinata.cloud/ipfs/QmTpUvB7jEa8cRPVM9REjx28rMSpQXx874MjeVCiBL7z6q?_gl=1*1016e1g*_ga*MTY2OTI0NDAzNS4xNjgzNjU2ODM2*_ga_5RMPXG14TE*MTY5NDEyMzg4Mi4xMS4xLjE2OTQxMjM5MTguMjQuMC4w";
   const imageloaded = () => {
     setTimeout(() => {
       setloadImage(false);
@@ -77,7 +77,6 @@ function App() {
               <a href={resumeLink} rel="noopener noreferrer" target="_blank">
                 <button className=" mt-9 text-cyan-400 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-full text-lg sm:text-xl px-5 py-2  dark:bg-gray-800 dark:text-cyan-400 dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Resume</button>
               </a>
-
             </div>
           </div>
         </div>
@@ -91,7 +90,8 @@ function App() {
       <hr class="my-6 h-0.5 border-t-0 sm:flex hidden w-[900px] bg-neutral-100 opacity-100 dark:opacity-50" />
       <p className="text-cyan-400 text-xl ml-36 sm:text-3xl font-semibold justify-center flex mt-4 sm:-ml-4">Experience</p>
       <div className="my-12 flex flex-col justify-around">
-        <Experience title="GetBoarded" description="Building an NFT/Token Gated Service using ERC1155. Exploring multiple Protocols like LivePeer, Ocean and Lens Protocol, integrating these technologies to existing apps" duration="05/2023 - Present" imglink="https://media.licdn.com/dms/image/C4D0BAQFDXGNQT2FnVw/company-logo_200_200/0/1620050620599?e=2147483647&v=beta&t=ahiy7BGdXjP2v1ewGhDTR0LOL21SV5Ng18A9XzW9oxQ" position="Blockchain Developer Intern" />
+        <Experience title="Threeway Studio" description="Building a Full Stack Blockhain Model for Construction Company's Money Flow and Securing the Process of Tenders " duration="09/2023 - Present" imglink="https://pbs.twimg.com/profile_images/1613100131221659650/vDOgnr9u_400x400.jpg" position="Full Stack Web3 Intern" />
+        <Experience title="GetBoarded" description="Built an NFT/Token Gated Service using ERC1155. Exploring multiple Protocols like LivePeer, Ocean and Lens Protocol, integrating these technologies to existing apps" duration="05/2023 - 09/2023" imglink="https://media.licdn.com/dms/image/C4D0BAQFDXGNQT2FnVw/company-logo_200_200/0/1620050620599?e=2147483647&v=beta&t=ahiy7BGdXjP2v1ewGhDTR0LOL21SV5Ng18A9XzW9oxQ" position="Blockchain Developer Intern" />
         <Experience title="IIITDM" description="Collected and Analyzed data for IoT-Blockchain modelling, Developed proficiency in Solidity and EVM's,Strengthened skills in research ethics and Private-Blockchain"
           imglink="https://orange-confused-boar-516.mypinata.cloud/ipfs/QmTi2exrBkk3rRraEwZvWbwoUo4s3oDAmp3SZbxCWJavjB?_gl=1*1ndq4pq*_ga*MTY2OTI0NDAzNS4xNjgzNjU2ODM2*_ga_5RMPXG14TE*MTY5MTI3MjMwNi45LjEuMTY5MTI3MjMwOS41Ny4wLjA."
           position="Blockchain Research Intern"
@@ -100,7 +100,7 @@ function App() {
       <hr class="my-4 h-0.5 sm:flex hidden border-t-0 w-[900px] bg-neutral-100 opacity-100 dark:opacity-50" />
       <div className="sm:ml-0 ml-36">
       <p className="text-cyan-400 text-xl sm:text-3xl font-semibold justify-center flex mt-4 sm:-ml-4">About Me</p>
-      <p className='text-center mt-2 mb-2 font-light sm:ml-0 ml-7 p-2 overflow-auto text-lg sm:text-xl text-white w-[600px]'>8919285030 | ec21b1095@iiitdm.ac.in | Chennai, Tamil Nadu </p>
+      <p className='text-center mt-2 mb-2 font-light sm:ml-0 ml-7 p-2 overflow-auto text-lg sm:text-xl text-white w-[600px]'>8919285030 | roshanrsingh37@gmail.com | Chennai, Tamil Nadu </p>
       </div>
     </div>
   );
