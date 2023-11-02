@@ -15,7 +15,7 @@ function App() {
   const whatsappLink = "https://wa.me/8919285030";
   const githubLink = "https://github.com/Ronnieraj37?tab=repositories";
   const linkedinLink = "https://www.linkedin.com/in/roshan-singh-79709a224/";
-  const resumeLink = "https://orange-confused-boar-516.mypinata.cloud/ipfs/QmTpUvB7jEa8cRPVM9REjx28rMSpQXx874MjeVCiBL7z6q?_gl=1*1016e1g*_ga*MTY2OTI0NDAzNS4xNjgzNjU2ODM2*_ga_5RMPXG14TE*MTY5NDEyMzg4Mi4xMS4xLjE2OTQxMjM5MTguMjQuMC4w";
+  const resumeLink = "https://drive.google.com/file/d/1ycdofJVyc0zjYI4J0uuci-l8JgmVo2GG/view?usp=sharing";
   const imageloaded = () => {
     setTimeout(() => {
       setloadImage(false);
@@ -40,7 +40,7 @@ function App() {
       <div className="flex-col flex min-w-full items-center justify-around  overflow-auto -mt-8  font-link text-white">
         <div className="flex flex-col sm:flex-row ml-72 mt-12 sm:mt-20 sm:ml-44">
           <div className="-ml-32 mr-8 ">
-            <img onLoad={imageloaded} src="https://orange-confused-boar-516.mypinata.cloud/ipfs/QmdcE4xXBkCknQFuKftn5BoHgSp1xHRECGXUp8W5HPR7A3?_gl=1*1g0xk7f*_ga*MTY2OTI0NDAzNS4xNjgzNjU2ODM2*_ga_5RMPXG14TE*MTY5MTEyNzg5OC41LjEuMTY5MTEyNzkxOC40MC4wLjA." className="w-[230px] h-[230px] sm:flex hidden  z-0 rounded-full" loading="lazy" alt="Profile" />
+            <img onLoad={imageloaded} src="https://i.postimg.cc/KYr0ynGJ/photo1691127720-fotor-20230804111425.png" className="w-[230px] h-[230px] sm:flex hidden  z-0 rounded-full" loading="lazy" alt="Profile" />
             {loadImage &&
               <div className="-mt-[230px] sm:flex hidden z-10 ">
                 <Skeleton animation="wave" variant="circular" sx={{ bgcolor: '#0f5575' }} width={230} height={230} />
@@ -83,17 +83,17 @@ function App() {
       </div>
       <p className="text-cyan-400 text-xl ml-36 sm:text-3xl font-semibold justify-center flex mt-12 sm:-ml-4">Projects</p>
       <div className="my-12 grid grid-cols-1 sm:grid-cols-3">
-        <Project title="Vendork" description=" A Decentralized Social Media App -> IPFS, OpenAI & Web3.0" gitlink="https://github.com/Ronnieraj37/Mantle" vercel="https://mantle37.vercel.app/" imglink="https://orange-confused-boar-516.mypinata.cloud/ipfs/QmP9dFNgppAmPtktSpwbFEZt6yF7SENaNvYx5d3yL9JuuN?_gl=1*9zic66*_ga*MTY2OTI0NDAzNS4xNjgzNjU2ODM2*_ga_5RMPXG14TE*MTY5MTE3NDM1Mi42LjEuMTY5MTE3NDM3MS40MS4wLjA." />
-        <Project title="G-Drive 3.0" description="A Decentralized Storage with ACL -> IPFS & Web3.0" gitlink="https://github.com/Ronnieraj37/G-Drive-3.0" vercel="vercel" imglink="https://orange-confused-boar-516.mypinata.cloud/ipfs/QmeRL1HGjRBWVqyv3uESbzVq9jEmKDqgecHz6VSmGtkMJe?_gl=1*g7p57p*_ga*MTY2OTI0NDAzNS4xNjgzNjU2ODM2*_ga_5RMPXG14TE*MTY5MTE3ODA4OC43LjAuMTY5MTE3ODA4OC42MC4wLjA." />
-        <Project title="Iot-Blockchain" description="Integrating IOT with Blockchain making Channels for Secure data flow" gitlink="https://github.com/Ronnieraj37/Iot-Blockchain" imglink="https://orange-confused-boar-516.mypinata.cloud/ipfs/QmQJydyLsph6RCW3SQoc7yz9byz5PesD66LFsuiFkrYX8P?_gl=1*11ddd3n*_ga*MTY2OTI0NDAzNS4xNjgzNjU2ODM2*_ga_5RMPXG14TE*MTY5MTMzOTIyMy4xMC4wLjE2OTEzMzkyMzAuNTMuMC4w" />
+        <Project title="Vendork" description=" A Decentralized Social Media App -> IPFS, OpenAI & Web3.0" gitlink="https://github.com/Ronnieraj37/Mantle" vercel="https://mantle37.vercel.app/" imglink="https://i.postimg.cc/DZ33xQC6/Screenshot-2023-11-02-at-10-50-13-PM.png" />
+        <Project title="G-Drive 3.0" description="A Decentralized Storage with ACL -> IPFS & Web3.0" gitlink="https://github.com/Ronnieraj37/G-Drive-3.0" vercel="vercel" imglink="https://i.postimg.cc/PqmRrg4b/Drive-3-0.png" />
+        <Project title="Iot-Blockchain" description="Integrating IOT with Blockchain making Channels for Secure data flow" gitlink="https://github.com/Ronnieraj37/Iot-Blockchain" imglink="https://i.postimg.cc/Dzst4J2X/Blockchain-of-Things.png" />
       </div>
       <hr class="my-6 h-0.5 border-t-0 sm:flex hidden w-[900px] bg-neutral-100 opacity-100 dark:opacity-50" />
       <p className="text-cyan-400 text-xl ml-36 sm:text-3xl font-semibold justify-center flex mt-4 sm:-ml-4">Experience</p>
       <div className="my-12 flex flex-col justify-around">
-        <Experience title="Threeway Studio" description="Building a Full Stack Blockhain Model for Construction Company's Money Flow and Securing the Process of Tenders " duration="09/2023 - Present" imglink="https://pbs.twimg.com/profile_images/1613100131221659650/vDOgnr9u_400x400.jpg" position="Full Stack Web3 Intern" />
+        <Experience title="Kuvaka" description="Building a Full Stack Blockhain Model for Qatar Government for Construction Company's Money Flow and Securing the Process of Tenders. Also working on Hyperledger Fabric on Supply Chain System for India's Leading Farming Company" duration="09/2023 - Present" imglink="https://media.licdn.com/dms/image/D560BAQGD88-Rrn-iQg/company-logo_200_200/0/1697875306075?e=1706745600&v=beta&t=-ki0k8vpGXKaD9CPTJu7MbdShwlIg-xjE7seKsnbAss" position="Full Stack Web3 Intern" />
         <Experience title="GetBoarded" description="Built an NFT/Token Gated Service using ERC1155. Exploring multiple Protocols like LivePeer, Ocean and Lens Protocol, integrating these technologies to existing apps" duration="05/2023 - 09/2023" imglink="https://media.licdn.com/dms/image/C4D0BAQFDXGNQT2FnVw/company-logo_200_200/0/1620050620599?e=2147483647&v=beta&t=ahiy7BGdXjP2v1ewGhDTR0LOL21SV5Ng18A9XzW9oxQ" position="Blockchain Developer Intern" />
         <Experience title="IIITDM" description="Collected and Analyzed data for IoT-Blockchain modelling, Developed proficiency in Solidity and EVM's,Strengthened skills in research ethics and Private-Blockchain"
-          imglink="https://orange-confused-boar-516.mypinata.cloud/ipfs/QmTi2exrBkk3rRraEwZvWbwoUo4s3oDAmp3SZbxCWJavjB?_gl=1*1ndq4pq*_ga*MTY2OTI0NDAzNS4xNjgzNjU2ODM2*_ga_5RMPXG14TE*MTY5MTI3MjMwNi45LjEuMTY5MTI3MjMwOS41Ny4wLjA."
+          imglink="https://upload.wikimedia.org/wikipedia/en/4/4a/Indian_Institute_of_Information_Technology%2C_Design_and_Manufacturing%2C_Kancheepuram_logo.png"
           position="Blockchain Research Intern"
           duration="01/2023 - 03/2023" />
       </div>

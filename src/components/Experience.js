@@ -5,7 +5,7 @@ const Experience = ({ title, description, duration, position, imglink }) => {
             <img src={imglink} className='h-[150px] hidden sm:flex rounded-xl bg-white ' alt='cover' />
             <div className='flex-col sm:text-base text-sm flex items-center justify-around'>
                 <p className='font-semibold text-lg sm:text-xl'>{title} - {position}</p>
-                <p className='text-center  h-[110px] mt-2 p-2 overflow-auto w-[350px] sm:w-[500px]'>{description}</p>
+                <p className='text-center  h-[110px] mt-2 p-2 overflow-auto w-[350px] sm:w-[650px]'>{description}</p>
             </div>
             <p className=''>{duration}</p>
         </div>
