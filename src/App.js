@@ -15,7 +15,7 @@ function App() {
   const whatsappLink = "https://wa.me/8919285030";
   const githubLink = "https://github.com/Ronnieraj37?tab=repositories";
   const linkedinLink = "https://www.linkedin.com/in/roshan-singh-79709a224/";
-  const resumeLink = "https://drive.google.com/file/d/1ycdofJVyc0zjYI4J0uuci-l8JgmVo2GG/view?usp=sharing";
+  const resumeLink = "https://drive.google.com/file/d/1Zz_u0_wwZDtXVVX0VIff1qQIfmegcBAF/view?usp=sharing";
   const imageloaded = () => {
     setTimeout(() => {
       setloadImage(false);
